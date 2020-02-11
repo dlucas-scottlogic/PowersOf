@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="PowersOfTests\**" />
+    <EmbeddedResource Remove="PowersOfTests\**" />
+    <None Remove="PowersOfTests\**" />
+  </ItemGroup>
+
 </Project>
